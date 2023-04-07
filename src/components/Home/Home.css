@@ -1,0 +1,10 @@
+.tshirt-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 5px solid khaki;
+  margin-left: auto;
+  background-color: blueviolet;
+  padding-left: 15px;
+  padding-top: 10px;
+  
+}

@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightgray;
+  padding: 5px;
+  border: 5px solid khaki;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.nav-title {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.nav-title img {
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.nav-link a {
+  margin-right: 10px;
+}
+
+ .nav-link a:hover {
+  color: whitesmoke;
+  font-size: large;
+  font-weight: 700;
+}
